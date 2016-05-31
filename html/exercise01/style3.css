@@ -1,0 +1,83 @@
+.wrapper{
+	max-width: 960px;
+}
+
+.top{
+	min-height: 150px;
+	background-color: gray;
+}
+
+.sub_wrapper{
+	display: flex;
+	position: relative;
+}
+
+.column-1{
+	width: 160px;
+	min-height: 200px;
+	background-color: green;
+	position: relative;
+}
+
+.square-1{
+	background-color: white;
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.square-2{
+	width: 30px;
+	height: 30px;
+	background-color: white;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+
+.square-3{
+	bottom: 0px;
+	background-color: white;
+	width: 10px;
+	height: 10px;
+	position: absolute;
+}
+
+.square-4{
+	bottom: 0px;
+	right: 0px;
+	background-color: white;
+	width: 10px;
+	height: 10px;
+	position: absolute;	
+}
+
+.column-2{
+	width: 600px;
+	min-height: 200px;
+	background-color: purple;
+}
+
+.column-3{
+	width: 200px;
+	min-height: 200px;
+	background-color: blue;
+}
+
+.floating{
+	background-color: yellow;
+	width: 52px;
+	height: 32px;
+	overflow: hidden;
+	position: fixed;
+	border: 1px solid blue;
+	left: 945px;
+	margin-top: 10px;
+}
+
+.bottom{
+	background-color: red;
+	min-height: 100px;
+}
