@@ -1,0 +1,10 @@
+.wrapper{
+	background-image: url('shadow.png');
+	background-repeat: no-repeat;
+	background-size: 150% 200%;
+	margin: auto;
+	padding-bottom: 10px;
+	width: 770px;
+	height: 100%;
+	position: relative;
+}

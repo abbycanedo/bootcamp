@@ -4,40 +4,42 @@
 
 .top{
 	min-height: 151px;
-	background-color: yellow;
-	border: 1px solid red;
+	background-color: #FFFF40;
+	border: 1px solid #FE0200;
 	border-bottom: 0px;
 }
-
 
 .sub_wrapper{
 	margin:0 auto;
 	overflow: hidden;
-	display: flex;
 }
 
 .left {
-    border: 1px solid blue;
+    border: 1px solid #006CBB;
     border-right: 0px;
-    background-color: blue; 
+    background-color: #006CBB; 
     width: 262px;
-    border: 1px solid blue;
+    border: 1px solid #006CBB;
     min-height: 200px;
 }
 
 .right {
-	width: 701px;
+	width: 681px;
 	padding: 10px;
-    float:right;
-    border: 1px solid blue;
-    border-top: 1px solid red;
+    float: right;
+    border: 1px solid #006CBB;
+    border-top: 1px solid #FE0200;
     border-left: 0px;
+}
+
+.left, .right{
+	padding-bottom: 1000px;
+	margin-bottom: -1000px;
 }
 
 .bottom{
 	min-height: 201px;
-	background-color: red;
-	border: 1px solid blue;
+	background-color: #FE0200;
+	border: 1px solid #006CBB;
 	border-top: 0px;
 }
-

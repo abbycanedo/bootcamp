@@ -1,56 +1,65 @@
 .wrapper{
-	max-width: 960px;
+	width: 960px;
 }
 
 .top{
 	min-height: 150px;
-	background-color: red;
+	background-color: #FE0200;
 }
 
 .sub_wrapper{
-	display: flex;
 	min-height: 200px;
-	background-color: blue;
+	clear: both;
+	overflow: hidden;
+	width: 1000px;
 }
 
 .left{
 	width: 320px;
-	background-color: green;
+	background-color: #00AC50;
 }
 
 .right_wrapper{
 	float: right;
 	width: 640px;
 	min-height: 200px;
+	overflow: hidden;
 }
+
+
+.left, .right_wrapper, .top_right, .top_left{
+	padding-bottom: 10000px;
+	margin-bottom: -10000px;
+}
+
 
 .top_wrapped{
 	width: 640px;
 	min-height: 100px;
-	display: flex;
+	clear: both;
+	overflow: hidden;
 }
 
 .top_left{
 	width: 320px;
 	min-height: 100px;
-	background-color: yellow;
+	background-color: #FFC118;
 }
 
 .top_right{
 	width: 320px;
 	min-height: 100px;
-	background-color: purple;
+	background-color: #6B2A99;
 	float: right;
 }
 
 .bottom_wrapped{
-	background-color: blue;
+	background-color: #006BBB;
 	width: 640px;
 	min-height: 100px;
-	height: auto;
 }
 
 .bottom{
-	background-color: gray;
+	background-color: #C1C1C1;
 	min-height: 100px;
 }
