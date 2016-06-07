@@ -218,3 +218,7 @@ h1{
 	display: inline;
 	margin-left: 5px;
 }
+
+.bottom-shadow{
+	height: 30px;
+}

@@ -1,0 +1,210 @@
+body{
+	padding: 0px;
+	margin: 0px;
+	font-family: "Segoe UI",Arial,sans-serif;
+}
+
+h1, h4{
+	font-weight: normal;
+}
+
+h4, h6{
+	padding: 0px;
+	margin: 0px;	
+}
+
+p{
+	font-size: 0.75em;
+}
+
+h4{
+	font-size: 1.2em;
+}
+
+h3{
+	font-weight: 500;
+	font-size: 1.5em;
+}
+
+li{
+	display: inline;
+}
+
+li a:link {
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 0.8em;
+}
+
+li a:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+li a:hover {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+li a:active {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.wrapper{
+	margin-top: 0px;
+	margin: auto;
+	width: 960px;
+}
+
+.header{
+	color: #F2F2F3;
+	background-color: #000000;
+	padding: 10px 40px 10px 40px;
+}
+
+.header .wrapper{
+	width: 900px;
+}
+
+.header ul{
+	float: right;
+	margin-top: 20px;
+}
+
+.content{
+	padding: 0px 30px 0px 30px;
+}
+
+.section1, .section2, .section3, .section4{
+	border-bottom: 3px dotted #CDCDCD;
+	padding: 30px 0px 30px 0px;
+}
+
+.section1{
+	font-size: 0px;
+}
+
+.section2{
+	font-size: 1.7em;
+	font-weight: 500;
+}
+
+.section2 span{
+	font-weight: bolder;
+}
+
+.box_wrapper{
+	clear: both;
+	overflow: hidden;
+	padding-bottom: 20px;
+}
+
+.box{
+	width: 210px;
+	float: left;
+	margin: 0px 10px 0px 10px;
+	padding: 0px 30px 0px 30px;
+	text-align: center;
+	background-color: #07ADEE;
+	color: #FFFFFF;
+	padding-bottom: 20px;
+}
+
+.box h1{
+	border-bottom: 2px dotted #FFFFFF;
+	padding-bottom: 15px;
+}
+
+.box button{
+	border: 2px solid #006992;
+	background-color: #00729C;
+	height: 50px;
+	width: 200px;
+	color: #FFFFFF;
+}
+
+.box button:hover{
+	background-color: #006992;
+}
+
+.section4{
+	clear: both;
+	overflow: hidden;
+}
+
+.left, .right{
+	width: 410px;
+	float: left;
+	padding-bottom: 10000px;
+	margin-bottom: -10000px;
+}
+
+.left{
+	border-right: 2px dotted #CDCDCD;
+	padding-right: 30px;
+	margin-right: 20px;
+}
+
+.right img{
+	width: 400px;
+}
+
+.right a:link {
+	color: #79CFED;
+	text-decoration: none;
+	font-size: 0.8em;
+}
+
+.right a:visited {
+	color: #79CFED;
+	text-decoration: none;
+}
+
+.right a:hover {
+	color: #79CFED;
+	text-decoration: none;
+}
+
+.right a:active {
+	color: #79CFED;
+	text-decoration: none;
+}
+
+
+.footer{
+	clear: both;
+	color: #CDCDCD;
+	margin-top: 10px;
+}
+
+.testimonial_box{
+	clear: both;
+}
+
+.testimonial_box img{
+	float: left;
+	width: 80px;
+	padding-right: 10px;
+	margin-bottom: 20px;
+}
+
+.caption{
+	float: left;
+	width: 320px;
+}
+
+.caption p{
+	margin: 0px 0px 10px 0px;
+	padding: 0px;
+	font-size: 0.75em;
+}
+
+.caption span{
+	color: #79CFED;
+	font-size: 0.75em;
+}
+
+h6{
+	font-size: 0.8em;
+}
